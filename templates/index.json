@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_hero": {
@@ -13,15 +22,13 @@
             "container": "page-width page-width--full",
             "height": "fit",
             "media_type_1": "image",
-            "image_1": "",
-            "image_mb_1": "",
-            "video_1": "",
+            "image_2": "shopify://shop_images/MG_3379.jpg",
             "inherit_color_scheme": false,
-            "scheme_background": "#070E23",
+            "scheme_background": "#070e23",
             "scheme_background_gradient": "",
             "scheme_foreground_heading": "#ffffff",
             "scheme_foreground": "#ffffff",
-            "scheme_primary": "#E30517",
+            "scheme_primary": "#e30517",
             "scheme_primary_hover": "#ff2233",
             "scheme_border": "#333333",
             "scheme_shadow": "#000000"
@@ -54,11 +61,11 @@
                 "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
-                "scheme_background": "#070E23",
+                "scheme_background": "#070e23",
                 "scheme_background_gradient": "",
                 "scheme_foreground_heading": "#ffffff",
                 "scheme_foreground": "#ffffff",
-                "scheme_primary": "#E30517",
+                "scheme_primary": "#e30517",
                 "scheme_primary_hover": "#ff2233",
                 "scheme_border": "#333333",
                 "scheme_shadow": "#000000",
@@ -128,11 +135,11 @@
                     "height": "fit",
                     "custom_height": 100,
                     "inherit_color_scheme": true,
-                    "scheme_background": "#070E23",
+                    "scheme_background": "#070e23",
                     "scheme_background_gradient": "",
                     "scheme_foreground_heading": "#ffffff",
                     "scheme_foreground": "#ffffff",
-                    "scheme_primary": "#E30517",
+                    "scheme_primary": "#e30517",
                     "scheme_primary_hover": "#ff2233",
                     "scheme_border": "#333333",
                     "scheme_shadow": "#000000",
@@ -505,7 +512,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "icon_dot_1": {
           "type": "icon",
@@ -517,7 +525,8 @@
             "open_in_new_tab": false,
             "width": 20,
             "animation_type": "none"
-          }
+          },
+          "blocks": {}
         },
         "text_marquee_2": {
           "type": "text",
@@ -584,7 +593,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "icon_dot_2": {
           "type": "icon",
@@ -596,7 +606,8 @@
             "open_in_new_tab": false,
             "width": 20,
             "animation_type": "none"
-          }
+          },
+          "blocks": {}
         },
         "text_marquee_3": {
           "type": "text",
@@ -663,7 +674,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "icon_dot_3": {
           "type": "icon",
@@ -675,7 +687,8 @@
             "open_in_new_tab": false,
             "width": 20,
             "animation_type": "none"
-          }
+          },
+          "blocks": {}
         },
         "text_marquee_4": {
           "type": "text",
@@ -742,7 +755,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "icon_dot_4": {
           "type": "icon",
@@ -754,7 +768,8 @@
             "open_in_new_tab": false,
             "width": 20,
             "animation_type": "none"
-          }
+          },
+          "blocks": {}
         },
         "text_marquee_5": {
           "type": "text",
@@ -821,7 +836,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "icon_dot_5": {
           "type": "icon",
@@ -833,7 +849,8 @@
             "open_in_new_tab": false,
             "width": 20,
             "animation_type": "none"
-          }
+          },
+          "blocks": {}
         },
         "text_marquee_6": {
           "type": "text",
@@ -900,7 +917,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         }
       },
       "block_order": [
@@ -935,10 +953,6 @@
     },
     "features_section": {
       "type": "features-include",
-      "settings": {
-        "title": "¿QUÉ <span>INCLUYE</span> TU PLAN?",
-        "subtitle": "Todo lo que necesitas para transformar tu cuerpo"
-      },
       "blocks": {
         "ft_1": {
           "type": "feature",
@@ -982,14 +996,14 @@
         "ft_3",
         "ft_4",
         "ft_5"
-      ]
+      ],
+      "settings": {
+        "title": "¿QUÉ <span>INCLUYE</span> TU PLAN?",
+        "subtitle": "Todo lo que necesitas para transformar tu cuerpo"
+      }
     },
     "porque_section": {
       "type": "porque-plan",
-      "settings": {
-        "title": "¿POR QUÉ <span>ESTE PLAN</span>?",
-        "subtitle": "Lo que nos hace diferentes"
-      },
       "blocks": {
         "pq_1": {
           "type": "reason",
@@ -1025,30 +1039,14 @@
         "pq_2",
         "pq_3",
         "pq_4"
-      ]
+      ],
+      "settings": {
+        "title": "¿POR QUÉ <span>ESTE PLAN</span>?",
+        "subtitle": "Lo que nos hace diferentes"
+      }
     },
     "pricing_section": {
       "type": "pricing-faqs",
-      "settings": {
-        "pricing_heading": "ELIGE TU PLAN",
-        "pricing_subheading": "Entrena con peleadores profesionales",
-        "plan1_badge": "Más Popular",
-        "plan1_name": "Plan Completo",
-        "plan1_price": "150.000",
-        "plan1_old_price": "",
-        "plan1_note": "Todo incluido",
-        "plan1_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|8 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|Seguimiento personalizado",
-        "plan1_cta": "QUIERO ESTE PLAN",
-        "plan2_badge": "Básico",
-        "plan2_name": "Plan Base",
-        "plan2_price": "120.000",
-        "plan2_old_price": "",
-        "plan2_note": "Ideal para empezar",
-        "plan2_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|4 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|~Seguimiento personalizado",
-        "plan2_cta": "EMPEZAR AHORA",
-        "faqs_heading": "¿TIENES DUDAS?",
-        "faqs_subheading": "Resolvemos las preguntas más comunes"
-      },
       "blocks": {
         "faq_1": {
           "type": "faq",
@@ -1100,18 +1098,37 @@
         "faq_4",
         "faq_5",
         "faq_6"
-      ]
+      ],
+      "settings": {
+        "pricing_heading": "ELIGE TU PLAN",
+        "pricing_subheading": "Entrena con peleadores profesionales",
+        "plan1_badge": "Más Popular",
+        "plan1_name": "Plan Completo",
+        "plan1_price": "150.000",
+        "plan1_old_price": "",
+        "plan1_note": "Todo incluido",
+        "plan1_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|8 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|Seguimiento personalizado",
+        "plan1_cta": "QUIERO ESTE PLAN",
+        "plan1_link": "",
+        "plan2_badge": "Básico",
+        "plan2_name": "Plan Base",
+        "plan2_price": "120.000",
+        "plan2_old_price": "",
+        "plan2_note": "Ideal para empezar",
+        "plan2_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|4 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|~Seguimiento personalizado",
+        "plan2_cta": "EMPEZAR AHORA",
+        "plan2_link": "",
+        "faqs_heading": "¿TIENES DUDAS?",
+        "faqs_subheading": "Resolvemos las preguntas más comunes"
+      }
     },
     "instructors_section": {
       "type": "instructors",
-      "settings": {
-        "heading": "TUS ENTRENADORES",
-        "subheading": "Peleadores profesionales que te guían paso a paso"
-      },
       "blocks": {
         "instructor_jorge": {
           "type": "instructor",
           "settings": {
+            "image": "shopify://shop_images/DSC00379.jpg",
             "name": "Jorge Loaiza",
             "specialty": "Boxeo · Muay Thai · MMA",
             "bio": "Entrenador de boxeo y Muay Thai con experiencia como peleador profesional en artes marciales mixtas y Muay Thai, reconocido por su disciplina, exigencia y alto nivel técnico. Se enfoca en formar atletas con bases sólidas, perfeccionando cada movimiento con precisión y compromiso.",
@@ -1121,6 +1138,7 @@
         "instructor_ivan": {
           "type": "instructor",
           "settings": {
+            "image": "shopify://shop_images/DSC00363.jpg",
             "name": "Iván Londoño",
             "specialty": "Boxeo · Muay Thai · MMA",
             "bio": "Entrenador de boxeo y Muay Thai, peleador profesional en artes marciales mixtas y boxeo. Enfocado en la técnica y la disciplina, combina exigencia y compromiso para formar atletas sólidos. Crea un ambiente de trabajo positivo que motiva a sus alumnos a mejorar constantemente.",
@@ -1130,6 +1148,7 @@
         "instructor_tomas": {
           "type": "instructor",
           "settings": {
+            "image": "shopify://shop_images/DSC00388.jpg",
             "name": "Tomás Gutiérrez",
             "specialty": "Acondicionamiento · Lucha Olímpica · MMA",
             "bio": "Entrenador de acondicionamiento físico y lucha olímpica, peleador profesional en MMA y ex campeón de lucha olímpica. Alegre y enérgico, crea un ambiente motivador mientras mantiene un enfoque exigente y disciplinado. Dedicado a guiar a cada alumno paso a paso.",
@@ -1139,6 +1158,7 @@
         "instructor_jonathan": {
           "type": "instructor",
           "settings": {
+            "image": "shopify://shop_images/DSC00398.jpg",
             "name": "Jonathan Castrillón",
             "specialty": "Acondicionamiento · Fisicoculturismo",
             "bio": "Entrenador de acondicionamiento físico y fisicoculturista, enfocado y altamente organizado en cada sesión. Se destaca por su puntualidad y constante seguimiento a sus alumnos, corrigiendo detalladamente la técnica para asegurar una ejecución correcta y resultados efectivos.",
@@ -1148,6 +1168,7 @@
         "instructor_salomon": {
           "type": "instructor",
           "settings": {
+            "image": "shopify://shop_images/DSC00392.jpg",
             "name": "Salomón Tabares",
             "specialty": "Boxeo · Muay Thai · MMA",
             "bio": "Entrenador de acondicionamiento físico, boxeo y Muay Thai, peleador profesional de artes marciales mixtas. Enfocado y altamente organizado en cada sesión. Se destaca por su puntualidad y constante seguimiento a sus alumnos, corrigiendo detalladamente la técnica.",
@@ -1161,7 +1182,11 @@
         "instructor_tomas",
         "instructor_jonathan",
         "instructor_salomon"
-      ]
+      ],
+      "settings": {
+        "heading": "TUS ENTRENADORES",
+        "subheading": "Peleadores profesionales que te guían paso a paso"
+      }
     },
     "gallery_section": {
       "type": "media-gallery",
@@ -1190,11 +1215,11 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": true,
-            "scheme_background": "#070E23",
+            "scheme_background": "#070e23",
             "scheme_background_gradient": "",
             "scheme_foreground_heading": "#ffffff",
             "scheme_foreground": "#ffffff",
-            "scheme_primary": "#E30517",
+            "scheme_primary": "#e30517",
             "scheme_primary_hover": "#ff2233",
             "scheme_border": "#333333",
             "scheme_shadow": "#000000",
@@ -1239,6 +1264,7 @@
         },
         "static-media-gallery": {
           "type": "_media-gallery",
+          "disabled": true,
           "static": true,
           "settings": {
             "layout_type": "grid",
@@ -1262,7 +1288,7 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": true,
-            "scheme_background": "#070E23",
+            "scheme_background": "#070e23",
             "scheme_background_gradient": "",
             "scheme_foreground_heading": "#ffffff",
             "scheme_foreground": "#ffffff",
@@ -1289,7 +1315,6 @@
               "settings": {
                 "background_media": "image",
                 "video_position": "cover",
-                "background_image": "",
                 "background_image_position": "cover",
                 "link": "",
                 "background_color": "#111827",
@@ -1340,8 +1365,7 @@
                 "padding_bottom": 0,
                 "padding_left": 0
               },
-              "blocks": {},
-              "block_order": []
+              "blocks": {}
             },
             "gallery_item_2": {
               "type": "_instagram-item",
@@ -1349,7 +1373,6 @@
               "settings": {
                 "background_media": "image",
                 "video_position": "cover",
-                "background_image": "",
                 "background_image_position": "cover",
                 "link": "",
                 "background_color": "#111827",
@@ -1400,8 +1423,7 @@
                 "padding_bottom": 0,
                 "padding_left": 0
               },
-              "blocks": {},
-              "block_order": []
+              "blocks": {}
             },
             "gallery_item_3": {
               "type": "_instagram-item",
@@ -1409,7 +1431,6 @@
               "settings": {
                 "background_media": "image",
                 "video_position": "cover",
-                "background_image": "",
                 "background_image_position": "cover",
                 "link": "",
                 "background_color": "#111827",
@@ -1460,8 +1481,7 @@
                 "padding_bottom": 0,
                 "padding_left": 0
               },
-              "blocks": {},
-              "block_order": []
+              "blocks": {}
             },
             "gallery_item_4": {
               "type": "_instagram-item",
@@ -1469,7 +1489,6 @@
               "settings": {
                 "background_media": "image",
                 "video_position": "cover",
-                "background_image": "",
                 "background_image_position": "cover",
                 "link": "",
                 "background_color": "#111827",
@@ -1520,8 +1539,7 @@
                 "padding_bottom": 0,
                 "padding_left": 0
               },
-              "blocks": {},
-              "block_order": []
+              "blocks": {}
             }
           },
           "block_order": [

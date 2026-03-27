@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "Header group",
   "type": "header",
@@ -29,42 +38,7 @@
             "scheme_border": "#e6e6e6",
             "scheme_shadow": "#000000"
           },
-          "blocks": {
-            "group_announcement_9yj6cq": {
-              "type": "_group-announcement",
-              "settings": {
-                "width_grid_item": 100,
-                "autoplay": false,
-                "autoplay_speed": 3,
-                "inherit_color_scheme": true,
-                "scheme_background": "#ffffff",
-                "scheme_background_gradient": "",
-                "scheme_foreground_heading": "#000000",
-                "scheme_foreground": "#000000",
-                "scheme_primary": "#000f9f",
-                "scheme_primary_hover": "#000000",
-                "scheme_border": "#e6e6e6",
-                "scheme_shadow": "#000000"
-              },
-              "blocks": {
-                "announcement_text_BXhKCE": {
-                  "type": "_announcement-text",
-                  "settings": {
-                    "text": "End of season sale up to 50% off. <a href=\"/collections\" title=\"All collections\">Shop Now</a>",
-                    "font": "body",
-                    "font_size": "1.4rem"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "announcement_text_BXhKCE"
-              ]
-            }
-          },
-          "block_order": [
-            "group_announcement_9yj6cq"
-          ]
+          "blocks": {}
         }
       },
       "block_order": [
@@ -150,11 +124,8 @@
             "promotion_banner_layout": "right",
             "image_border_thickness": 0,
             "image_corner_radius": 0,
-            "image_1": "",
             "link_url_1": "",
-            "image_2": "",
             "link_url_2": "",
-            "image_3": "",
             "link_url_3": ""
           }
         },
@@ -164,7 +135,7 @@
             "menu_item": "COLLECTIONS",
             "grid": "5",
             "width": "page-width",
-            "megamenu_submenu": "custom-menu",
+            "megamenu_submenu": "",
             "product_collection": "classic-new-arrival",
             "product_limit": 4,
             "product_columns": 4,
@@ -173,7 +144,6 @@
             "vertical_alignment_flex_direction_column": "justify-start",
             "show_promotion_banner": true,
             "banner_row": "bottom",
-            "image_1": "",
             "image_border_thickness": 0,
             "image_corner_radius": 0,
             "link_url_1": "",
@@ -192,9 +162,7 @@
             "show_promotion_banner": true,
             "image_border_thickness": 0,
             "image_corner_radius": 0,
-            "image_1": "",
             "link_url_1": "",
-            "image_2": "",
             "link_url_2": "",
             "show_brand": true,
             "brand_title": "BRANDS BY ALPHABET",
@@ -218,7 +186,7 @@
       "settings": {
         "gap": 12,
         "align_items": "start",
-        "logo_width": 285,
+        "logo_width": 120,
         "logo_width_mobile": 110,
         "logo_spacing_left": 0,
         "logo_spacing_right": 0,
@@ -272,6 +240,7 @@
         "border_width": 0,
         "enable_shadow": false,
         "color_scheme_top": "scheme-1",
+        "color_scheme_top_mb": "",
         "color_scheme_search_inline": "scheme-1",
         "color_scheme_bottom": "",
         "color_scheme_transparent": "scheme-4",
