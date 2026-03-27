@@ -952,13 +952,36 @@
       }
     },
     "pricing_section": {
-      "type": "custom-liquid",
+      "type": "pricing-faqs",
       "settings": {
-        "custom_liquid": "<div style=\"max-width:1000px;margin:0 auto;padding:60px 20px;text-align:center;\">\n  <h2 style=\"font-size:3rem;text-transform:uppercase;margin-bottom:12px;color:#070E23;\">ELIGE TU PLAN</h2>\n  <p style=\"font-size:1.1rem;color:#555;margin-bottom:40px;\">Aprovecha el precio de preventa por tiempo limitado</p>\n  <div style=\"display:flex;flex-wrap:wrap;justify-content:center;gap:32px;\">\n    <div style=\"flex:1;min-width:280px;max-width:400px;padding:40px 32px;border:3px solid #E30517;border-radius:16px;background:#070E23;color:#fff;position:relative;\">\n      <div style=\"position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:#E30517;color:#fff;padding:6px 24px;border-radius:100px;font-size:0.85rem;text-transform:uppercase;font-weight:700;\">Preventa</div>\n      <p style=\"font-size:1rem;text-transform:uppercase;letter-spacing:2px;margin-bottom:16px;color:#ccc;\">Plan ZDC 60 Dias</p>\n      <p style=\"font-size:3.5rem;font-weight:800;margin-bottom:8px;color:#fff;\">$100.000</p>\n      <p style=\"font-size:1rem;color:#888;text-decoration:line-through;margin-bottom:24px;\">$120.000 precio normal</p>\n      <ul style=\"text-align:left;list-style:none;padding:0;margin-bottom:32px;\">\n        <li style=\"padding:8px 0;border-bottom:1px solid #222;color:#ccc;\">&#10003; Plan de entrenamiento personalizado</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #222;color:#ccc;\">&#10003; Guia de alimentacion completa</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #222;color:#ccc;\">&#10003; 4 clases de boxeo en vivo</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #222;color:#ccc;\">&#10003; Grupo de Telegram con coaches</li>\n        <li style=\"padding:8px 0;color:#ccc;\">&#10003; Acceso completo a la app</li>\n      </ul>\n      <a href=\"\" style=\"display:inline-block;background:#E30517;color:#fff;text-decoration:none;padding:14px 48px;border-radius:100px;font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;\">QUIERO MI PLAN</a>\n    </div>\n    <div style=\"flex:1;min-width:280px;max-width:400px;padding:40px 32px;border:2px solid #e0e0e0;border-radius:16px;background:#f9f9f9;color:#070E23;\">\n      <p style=\"font-size:1rem;text-transform:uppercase;letter-spacing:2px;margin-bottom:16px;color:#888;\">Precio Normal</p>\n      <p style=\"font-size:3.5rem;font-weight:800;margin-bottom:8px;color:#070E23;\">$120.000</p>\n      <p style=\"font-size:1rem;color:#aaa;margin-bottom:24px;\">Despues de la preventa</p>\n      <ul style=\"text-align:left;list-style:none;padding:0;margin-bottom:32px;\">\n        <li style=\"padding:8px 0;border-bottom:1px solid #e0e0e0;color:#555;\">&#10003; Plan de entrenamiento personalizado</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #e0e0e0;color:#555;\">&#10003; Guia de alimentacion completa</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #e0e0e0;color:#555;\">&#10003; 4 clases de boxeo en vivo</li>\n        <li style=\"padding:8px 0;border-bottom:1px solid #e0e0e0;color:#555;\">&#10003; Grupo de Telegram con coaches</li>\n        <li style=\"padding:8px 0;color:#555;\">&#10003; Acceso completo a la app</li>\n      </ul>\n      <a href=\"\" style=\"display:inline-block;background:#070E23;color:#fff;text-decoration:none;padding:14px 48px;border-radius:100px;font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;\">COMPRAR AHORA</a>\n    </div>\n  </div>\n</div>",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
+        "pricing_heading": "ELIGE TU PLAN",
+        "pricing_subheading": "Entrena con peleadores profesionales",
+        "plan1_badge": "Más Popular",
+        "plan1_name": "Plan Completo",
+        "plan1_price": "150.000",
+        "plan1_old_price": "",
+        "plan1_note": "Todo incluido",
+        "plan1_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|8 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|Seguimiento personalizado",
+        "plan1_cta": "QUIERO ESTE PLAN",
+        "plan2_badge": "Básico",
+        "plan2_name": "Plan Base",
+        "plan2_price": "120.000",
+        "plan2_old_price": "",
+        "plan2_note": "Ideal para empezar",
+        "plan2_features": "Plan de entrenamiento personalizado|Guía de alimentación completa|4 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|~Seguimiento personalizado",
+        "plan2_cta": "EMPEZAR AHORA",
+        "faqs_heading": "¿TIENES DUDAS?",
+        "faqs_subheading": "Resolvemos las preguntas más comunes"
+      },
+      "blocks": {
+        "faq_1": { "type": "faq", "settings": { "question": "¿Qué incluye exactamente el Plan ZDC?", "answer": "<p>El plan incluye: rutina de entrenamiento personalizada, guía de alimentación con recetas y lista de mercado, clases presenciales en Zona de Combate, acceso al grupo de Telegram con coaches y acceso completo a la app de seguimiento.</p>" } },
+        "faq_2": { "type": "faq", "settings": { "question": "¿Necesito experiencia previa en deportes de combate?", "answer": "<p>No, para nada. El plan se adapta a todos los niveles. Desde principiantes que nunca han entrenado hasta personas con experiencia que quieren subir de nivel. Tu rutina será 100% personalizada.</p>" } },
+        "faq_3": { "type": "faq", "settings": { "question": "¿Dónde son las clases presenciales?", "answer": "<p>Las clases presenciales se realizan en nuestra sede de Zona de Combate. Al inscribirte recibirás la dirección exacta, horarios disponibles y podrás agendar tus sesiones.</p>" } },
+        "faq_4": { "type": "faq", "settings": { "question": "¿Cómo funciona el grupo de Telegram?", "answer": "<p>Al comprar tu plan, recibirás un enlace para unirte al grupo exclusivo de Telegram. Ahí encontrarás a los entrenadores disponibles para resolver dudas, motivación diaria, tips de entrenamiento y una comunidad con los mismos objetivos.</p>" } },
+        "faq_5": { "type": "faq", "settings": { "question": "¿Puedo hacer el plan si no vivo en la ciudad?", "answer": "<p>Sí, el plan de entrenamiento y la guía alimentaria funcionan desde cualquier lugar. Solo las clases presenciales requieren asistir a nuestra sede. Si estás fuera de la ciudad, esas clases se reemplazan por sesiones virtuales en vivo.</p>" } },
+        "faq_6": { "type": "faq", "settings": { "question": "¿Cuál es la diferencia entre el Plan Base y el Completo?", "answer": "<p>El Plan Base ($120.000) incluye 4 clases presenciales al mes y todos los beneficios principales. El Plan Completo ($150.000) incluye 8 clases al mes y seguimiento personalizado con tu entrenador.</p>" } }
+      },
+      "block_order": ["faq_1", "faq_2", "faq_3", "faq_4", "faq_5", "faq_6"]
     },
     "instructors_section": {
       "type": "instructors",
@@ -2231,7 +2254,7 @@
     "final_cta_section": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"background:#070E23;padding:80px 20px;text-align:center;\">\n  <div style=\"max-width:800px;margin:0 auto;\">\n    <h2 style=\"font-size:3.5rem;text-transform:uppercase;color:#fff;margin-bottom:16px;\">NO ESPERES MAS</h2>\n    <p style=\"font-size:1.3rem;color:#ccc;margin-bottom:12px;\">Tu transformacion empieza hoy. 60 dias es todo lo que necesitas.</p>\n    <p style=\"font-size:2.5rem;font-weight:800;color:#E30517;margin-bottom:8px;\">$100.000 <span style=\"font-size:1.2rem;color:#888;text-decoration:line-through;font-weight:400;\">$120.000</span></p>\n    <p style=\"font-size:0.95rem;color:#888;margin-bottom:32px;\">Precio de preventa por tiempo limitado</p>\n    <a href=\"\" style=\"display:inline-block;background:#E30517;color:#fff;text-decoration:none;padding:16px 56px;border-radius:100px;font-size:1.2rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;\">QUIERO MI PLAN</a>\n  </div>\n</div>",
+        "custom_liquid": "<div style=\"background:#070E23;padding:80px 20px;text-align:center;\">\n  <div style=\"max-width:800px;margin:0 auto;\">\n    <h2 style=\"font-size:3.5rem;text-transform:uppercase;color:#fff;margin-bottom:16px;\">NO ESPERES MÁS</h2>\n    <p style=\"font-size:1.3rem;color:#ccc;margin-bottom:12px;\">Tu transformación empieza hoy</p>\n    <p style=\"font-size:1.1rem;color:#888;margin-bottom:8px;\">Planes desde</p>\n    <p style=\"font-size:2.8rem;font-weight:800;color:#E30517;margin-bottom:32px;\">$120.000<span style=\"font-size:1.1rem;color:#888;font-weight:400;\">/mes</span></p>\n    <a href=\"\" style=\"display:inline-block;background:#E30517;color:#fff;text-decoration:none;padding:16px 56px;border-radius:100px;font-size:1.2rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;\">QUIERO MI PLAN</a>\n  </div>\n</div>",
         "color_scheme": "scheme-9",
         "padding_top": 0,
         "padding_bottom": 0
@@ -2255,7 +2278,6 @@
     "pricing_section",
     "instructors_section",
     "gallery_section",
-    "faqs_section",
     "final_cta_section",
     "footer_info_section"
   ]
