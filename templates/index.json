@@ -961,13 +961,59 @@
       }
     },
     "instructors_section": {
-      "type": "custom-liquid",
+      "type": "instructors",
       "settings": {
-        "custom_liquid": "<div style=\"max-width:1200px;margin:0 auto;padding:60px 20px;background:#070E23;color:#fff;text-align:center;\">\n  <h2 style=\"font-size:3rem;text-transform:uppercase;margin-bottom:12px;color:#fff;\">TUS ENTRENADORES</h2>\n  <p style=\"font-size:1.1rem;color:#ccc;margin-bottom:48px;\">Peleadores profesionales que te guian paso a paso</p>\n  <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;\">\n    <div style=\"background:#111827;border-radius:12px;overflow:hidden;padding-bottom:24px;\">\n      <div style=\"width:100%;aspect-ratio:1/1;background:#1a2332;display:flex;align-items:center;justify-content:center;color:#444;font-size:0.9rem;\">Foto del entrenador</div>\n      <h3 style=\"font-size:1.3rem;margin:16px 0 4px;color:#fff;\">Jorge Loaiza</h3>\n      <p style=\"font-size:0.95rem;color:#E30517;text-transform:uppercase;font-weight:600;\">MMA</p>\n    </div>\n    <div style=\"background:#111827;border-radius:12px;overflow:hidden;padding-bottom:24px;\">\n      <div style=\"width:100%;aspect-ratio:1/1;background:#1a2332;display:flex;align-items:center;justify-content:center;color:#444;font-size:0.9rem;\">Foto del entrenador</div>\n      <h3 style=\"font-size:1.3rem;margin:16px 0 4px;color:#fff;\">Salomon Tabares</h3>\n      <p style=\"font-size:0.95rem;color:#E30517;text-transform:uppercase;font-weight:600;\">Boxeo</p>\n    </div>\n    <div style=\"background:#111827;border-radius:12px;overflow:hidden;padding-bottom:24px;\">\n      <div style=\"width:100%;aspect-ratio:1/1;background:#1a2332;display:flex;align-items:center;justify-content:center;color:#444;font-size:0.9rem;\">Foto del entrenador</div>\n      <h3 style=\"font-size:1.3rem;margin:16px 0 4px;color:#fff;\">Ivan Londono</h3>\n      <p style=\"font-size:0.95rem;color:#E30517;text-transform:uppercase;font-weight:600;\">Muay Thai</p>\n    </div>\n    <div style=\"background:#111827;border-radius:12px;overflow:hidden;padding-bottom:24px;\">\n      <div style=\"width:100%;aspect-ratio:1/1;background:#1a2332;display:flex;align-items:center;justify-content:center;color:#444;font-size:0.9rem;\">Foto del entrenador</div>\n      <h3 style=\"font-size:1.3rem;margin:16px 0 4px;color:#fff;\">Tomas Gutierrez</h3>\n      <p style=\"font-size:0.95rem;color:#E30517;text-transform:uppercase;font-weight:600;\">BJJ</p>\n    </div>\n  </div>\n</div>",
-        "color_scheme": "scheme-9",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
+        "heading": "TUS ENTRENADORES",
+        "subheading": "Peleadores profesionales que te guían paso a paso"
+      },
+      "blocks": {
+        "instructor_jorge": {
+          "type": "instructor",
+          "settings": {
+            "name": "Jorge Loaiza",
+            "specialty": "Boxeo · Muay Thai · MMA",
+            "bio": "Entrenador de boxeo y Muay Thai con experiencia como peleador profesional en artes marciales mixtas y Muay Thai, reconocido por su disciplina, exigencia y alto nivel técnico. Se enfoca en formar atletas con bases sólidas, perfeccionando cada movimiento con precisión y compromiso.",
+            "instagram": ""
+          }
+        },
+        "instructor_ivan": {
+          "type": "instructor",
+          "settings": {
+            "name": "Iván Londoño",
+            "specialty": "Boxeo · Muay Thai · MMA",
+            "bio": "Entrenador de boxeo y Muay Thai, peleador profesional en artes marciales mixtas y boxeo. Enfocado en la técnica y la disciplina, combina exigencia y compromiso para formar atletas sólidos. Crea un ambiente de trabajo positivo que motiva a sus alumnos a mejorar constantemente.",
+            "instagram": ""
+          }
+        },
+        "instructor_tomas": {
+          "type": "instructor",
+          "settings": {
+            "name": "Tomás Gutiérrez",
+            "specialty": "Acondicionamiento · Lucha Olímpica · MMA",
+            "bio": "Entrenador de acondicionamiento físico y lucha olímpica, peleador profesional en MMA y ex campeón de lucha olímpica. Alegre y enérgico, crea un ambiente motivador mientras mantiene un enfoque exigente y disciplinado. Dedicado a guiar a cada alumno paso a paso.",
+            "instagram": ""
+          }
+        },
+        "instructor_jonathan": {
+          "type": "instructor",
+          "settings": {
+            "name": "Jonathan Castrillón",
+            "specialty": "Acondicionamiento · Fisicoculturismo",
+            "bio": "Entrenador de acondicionamiento físico y fisicoculturista, enfocado y altamente organizado en cada sesión. Se destaca por su puntualidad y constante seguimiento a sus alumnos, corrigiendo detalladamente la técnica para asegurar una ejecución correcta y resultados efectivos.",
+            "instagram": ""
+          }
+        },
+        "instructor_salomon": {
+          "type": "instructor",
+          "settings": {
+            "name": "Salomón Tabares",
+            "specialty": "Boxeo · Muay Thai · MMA",
+            "bio": "Entrenador de acondicionamiento físico, boxeo y Muay Thai, peleador profesional de artes marciales mixtas. Enfocado y altamente organizado en cada sesión. Se destaca por su puntualidad y constante seguimiento a sus alumnos, corrigiendo detalladamente la técnica.",
+            "instagram": ""
+          }
+        }
+      },
+      "block_order": ["instructor_jorge", "instructor_ivan", "instructor_tomas", "instructor_jonathan", "instructor_salomon"]
     },
     "gallery_section": {
       "type": "media-gallery",
