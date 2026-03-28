@@ -545,11 +545,11 @@
           "background_gradient": "",
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
-          "primary": "#e30517",
-          "primary_hover": "#ff1a2e",
+          "primary": "#ffffff",
+          "primary_hover": "#ffffff",
           "border": "#1a1a1a",
           "shadow": "#000000",
-          "primary_button_background": "#e30517",
+          "primary_button_background": "#ffffff",
           "primary_button_background_gradient": "",
           "primary_button_text": "#ffffff",
           "primary_button_border": "#e30517",
@@ -570,12 +570,12 @@
           "input_border_color": "#333333",
           "input_hover_background": "#1a1a1a",
           "arrow_color": "#ffffff",
-          "arrow_background": "rgba(0,0,0,0)",
+          "arrow_background": "#d62828",
           "arrow_border": "rgba(0,0,0,0)",
-          "arrow_color_hover": "#e30517",
+          "arrow_color_hover": "#ffffff",
           "arrow_background_hover": "rgba(0,0,0,0)",
           "pagination_color": "#ffffff",
-          "pagination_active_color": "#e30517"
+          "pagination_active_color": "#ffffff"
         }
       },
       "scheme-11": {
