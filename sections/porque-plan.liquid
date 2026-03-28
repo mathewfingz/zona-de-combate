@@ -2,36 +2,37 @@
 .zdc-why{--red:#E30517;--dark:#000000;position:relative;background:var(--dark);padding:100px 0;overflow:hidden}
 .zdc-why::before{content:'';position:absolute;top:0;right:0;width:50%;height:100%;background:radial-gradient(ellipse at 80% 30%,rgba(227,5,23,.06),transparent 60%);pointer-events:none}
 .zdc-why-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:start;position:relative;z-index:2}
-/* Vertical rotated title */
 .zdc-why-vert{position:relative;display:flex;align-items:flex-start;justify-content:center;padding-top:20px}
 .zdc-why-vert h2{writing-mode:vertical-lr;text-orientation:mixed;transform:rotate(180deg);font-size:clamp(3rem,6vw,5rem);font-weight:900;text-transform:uppercase;letter-spacing:8px;color:rgba(255,255,255,.04);margin:0;white-space:nowrap;line-height:1}
 .zdc-why-vert .vert-accent{position:absolute;top:0;left:50%;width:2px;height:100%;background:linear-gradient(to bottom,var(--red),transparent);transform:translateX(-50%)}
-/* Right content */
-.zdc-why-content{}
 .zdc-why-top{margin-bottom:48px}
-.zdc-why-top h3{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;text-transform:uppercase;color:#fff;letter-spacing:2px;margin:0 0 8px;line-height:1.1}
+.zdc-why-top h3{font-size:clamp(2.2rem,4.5vw,3.2rem);font-weight:900;text-transform:uppercase;color:#fff;letter-spacing:2px;margin:0 0 12px;line-height:1.1}
 .zdc-why-top h3 span{color:var(--red)}
-.zdc-why-top p{font-size:1rem;color:#556;margin:0}
+.zdc-why-top p{font-size:1.2rem;color:#778;margin:0}
 .zdc-why-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.zdc-why-card{position:relative;padding:32px 28px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:16px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);transition:all .45s cubic-bezier(.22,1,.36,1);overflow:hidden}
+.zdc-why-card{position:relative;padding:36px 30px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:20px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:all .45s cubic-bezier(.22,1,.36,1);overflow:hidden}
 .zdc-why-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:0;background:var(--red);transition:height .4s cubic-bezier(.22,1,.36,1);border-radius:0 0 2px 0}
 .zdc-why-card:hover::before{height:100%}
-.zdc-why-card:hover{background:rgba(227,5,23,.04);border-color:rgba(227,5,23,.15);transform:translateY(-4px)}
-.zdc-why-card-num{font-size:3.5rem;font-weight:900;color:var(--red);opacity:.12;line-height:1;margin-bottom:4px;transition:all .4s}
-.zdc-why-card:hover .zdc-why-card-num{opacity:.35;text-shadow:0 0 30px rgba(227,5,23,.4)}
-.zdc-why-card h4{font-size:1.1rem;font-weight:800;text-transform:uppercase;color:#fff;letter-spacing:1px;margin:0 0 8px;transition:color .3s}
+.zdc-why-card:hover{background:rgba(227,5,23,.05);border-color:rgba(227,5,23,.2);transform:translateY(-4px);box-shadow:0 16px 40px rgba(227,5,23,.08)}
+.zdc-why-card-num{font-size:4rem;font-weight:900;color:var(--red);opacity:.12;line-height:1;margin-bottom:4px;transition:all .4s}
+.zdc-why-card:hover .zdc-why-card-num{opacity:.4;text-shadow:0 0 30px rgba(227,5,23,.4)}
+.zdc-why-card h4{font-size:1.3rem;font-weight:800;text-transform:uppercase;color:#fff;letter-spacing:1px;margin:0 0 10px;transition:color .3s}
 .zdc-why-card:hover h4{color:var(--red)}
-.zdc-why-card p{font-size:.9rem;color:#667;line-height:1.6;margin:0}
-/* Ring rope decoration */
+.zdc-why-card p{font-size:1.1rem;color:#889;line-height:1.7;margin:0}
 .zdc-why-ropes{position:absolute;bottom:0;left:0;width:100%;height:3px;background:repeating-linear-gradient(90deg,var(--red) 0,var(--red) 60px,transparent 60px,transparent 80px);opacity:.1}
 @media(max-width:968px){
+.zdc-why{padding:60px 0}
 .zdc-why-inner{grid-template-columns:1fr}
 .zdc-why-vert{display:none}
 .zdc-why-top{text-align:center}
+.zdc-why-top p{margin-left:auto;margin-right:auto}
 }
 @media(max-width:600px){
 .zdc-why-grid{grid-template-columns:1fr}
-.zdc-why-card{padding:24px 20px}
+.zdc-why-card{padding:28px 24px;text-align:center}
+.zdc-why-card-num{font-size:3rem}
+.zdc-why-card h4{font-size:1.2rem}
+.zdc-why-card p{font-size:1.05rem}
 }
 </style>
 

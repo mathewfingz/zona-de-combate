@@ -3,83 +3,80 @@
 .zdc-pf::before{content:'';position:absolute;top:-200px;left:50%;width:600px;height:600px;background:radial-gradient(circle,rgba(227,5,23,.08),transparent 60%);transform:translateX(-50%);pointer-events:none}
 .zdc-pf-inner{max-width:1100px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
 
-/* ═══ PRICING ═══ */
+/* PRICING */
 .zdc-pr-head{text-align:center;margin-bottom:56px}
-.zdc-pr-head h2{font-size:clamp(2rem,5vw,3.2rem);font-weight:900;text-transform:uppercase;letter-spacing:3px;margin:0 0 8px}
-.zdc-pr-head p{font-size:1rem;color:#556;margin:0}
+.zdc-pr-head h2{font-size:clamp(2.4rem,5.5vw,3.6rem);font-weight:900;text-transform:uppercase;letter-spacing:3px;margin:0 0 12px}
+.zdc-pr-head p{font-size:1.2rem;color:#778;margin:0}
 .zdc-pr-head .pr-bar{width:80px;height:3px;background:var(--red);margin:20px auto 0}
-.zdc-pr-cards{display:grid;grid-template-columns:1fr;gap:24px;align-items:start;margin-bottom:0;max-width:520px;margin-left:auto;margin-right:auto}
-/* Shared card */
-.zdc-pr-card{border-radius:20px;padding:40px 32px;position:relative;overflow:hidden;transition:all .45s cubic-bezier(.22,1,.36,1)}
-/* Secondary */
-.zdc-pr-card--base{background:var(--glass);border:1px solid rgba(255,255,255,.06)}
+.zdc-pr-cards{display:grid;grid-template-columns:1fr;gap:24px;align-items:start;margin-bottom:0;max-width:560px;margin-left:auto;margin-right:auto}
+.zdc-pr-card{border-radius:24px;padding:48px 40px;position:relative;overflow:hidden;transition:all .45s cubic-bezier(.22,1,.36,1);text-align:center}
+.zdc-pr-card--base{background:var(--glass);border:1px solid rgba(255,255,255,.06);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .zdc-pr-card--base:hover{border-color:rgba(255,255,255,.12);transform:translateY(-4px)}
-/* Primary */
-.zdc-pr-card--pro{background:linear-gradient(170deg,rgba(227,5,23,.08) 0%,var(--dark2) 40%,var(--dark) 100%);border:2px solid var(--red);box-shadow:0 0 80px rgba(227,5,23,.08),inset 0 1px 0 rgba(255,255,255,.05)}
+.zdc-pr-card--pro{background:rgba(227,5,23,.04);border:2px solid var(--red);box-shadow:0 0 80px rgba(227,5,23,.08),inset 0 1px 0 rgba(255,255,255,.05);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
 .zdc-pr-card--pro:hover{box-shadow:0 0 100px rgba(227,5,23,.15),0 20px 60px rgba(0,0,0,.3);transform:translateY(-6px)}
-/* Corner cut decoration */
-.zdc-pr-card--pro::before{content:'';position:absolute;top:0;right:0;width:120px;height:120px;background:linear-gradient(225deg,rgba(227,5,23,.12),transparent 60%);pointer-events:none}
+.zdc-pr-card--pro::before{content:'';position:absolute;top:0;right:0;width:150px;height:150px;background:linear-gradient(225deg,rgba(227,5,23,.15),transparent 60%);pointer-events:none}
 .zdc-pr-card--pro::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,var(--red),transparent);opacity:.3}
-/* Badge */
-.pr-badge{display:inline-block;padding:6px 18px;border-radius:100px;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;margin-bottom:20px}
+.pr-badge{display:inline-block;padding:8px 22px;border-radius:100px;font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;margin-bottom:24px}
 .pr-badge--hot{background:var(--red);color:#fff;animation:zdc-pulse-badge 2s ease-in-out infinite}
-.pr-badge--basic{background:rgba(255,255,255,.06);color:#667;border:1px solid rgba(255,255,255,.08)}
-@keyframes zdc-pulse-badge{0%,100%{box-shadow:0 0 0 0 rgba(227,5,23,.4)}50%{box-shadow:0 0 0 8px rgba(227,5,23,0)}}
-.pr-plan-name{font-size:.8rem;text-transform:uppercase;letter-spacing:3px;color:#445;margin-bottom:16px}
-.pr-price{font-size:clamp(2.8rem,6vw,4rem);font-weight:900;line-height:1;margin-bottom:4px;background:linear-gradient(135deg,#fff 30%,#999);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.pr-badge--basic{background:rgba(255,255,255,.06);color:#889;border:1px solid rgba(255,255,255,.08)}
+@keyframes zdc-pulse-badge{0%,100%{box-shadow:0 0 0 0 rgba(227,5,23,.4)}50%{box-shadow:0 0 0 10px rgba(227,5,23,0)}}
+.pr-plan-name{font-size:1rem;text-transform:uppercase;letter-spacing:3px;color:#667;margin-bottom:20px}
+.pr-price{font-size:clamp(3.2rem,7vw,4.5rem);font-weight:900;line-height:1;margin-bottom:4px;background:linear-gradient(135deg,#fff 30%,#bbb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .zdc-pr-card--base .pr-price{background:linear-gradient(135deg,#aaa,#556);-webkit-background-clip:text;background-clip:text}
-.pr-price span{font-size:1rem;font-weight:400;-webkit-text-fill-color:#556}
-.pr-price-note{display:block;font-size:.82rem;color:var(--red);font-weight:700;margin-bottom:24px;letter-spacing:.5px}
-.zdc-pr-card--base .pr-price-note{color:#556}
-/* Features */
-.pr-feats{list-style:none;padding:0;margin:0 0 32px}
-.pr-feats li{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.9rem;color:#aab;display:flex;align-items:center;gap:10px}
+.pr-price span{font-size:1.1rem;font-weight:400;-webkit-text-fill-color:#667}
+.pr-price-old{font-size:1.15rem;color:#667;text-decoration:line-through;margin-bottom:8px;display:block}
+.pr-price-note{display:block;font-size:1rem;color:var(--red);font-weight:700;margin-bottom:28px;letter-spacing:.5px}
+.zdc-pr-card--base .pr-price-note{color:#667}
+.pr-feats{list-style:none;padding:0;margin:0 0 36px;text-align:left}
+.pr-feats li{padding:11px 0;border-bottom:1px solid rgba(255,255,255,.05);font-size:1.1rem;color:#bbc;display:flex;align-items:center;gap:12px}
 .pr-feats li:last-child{border-bottom:none}
-.pr-feats li svg{width:16px;height:16px;flex-shrink:0;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pr-feats li svg{width:18px;height:18px;flex-shrink:0;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
 .pr-feats .ck{stroke:var(--red)}
 .pr-feats .xk{stroke:#333}
-.pr-feats li.off{color:#334}
-/* CTA */
-.pr-cta{display:block;text-align:center;padding:15px;border-radius:12px;font-size:.9rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .35s;position:relative;overflow:hidden}
+.pr-feats li.off{color:#445}
+.pr-cta{display:block;text-align:center;padding:18px;border-radius:14px;font-size:1.1rem;font-weight:800;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .35s;position:relative;overflow:hidden}
 .pr-cta--red{background:var(--red);color:#fff;border:none}
 .pr-cta--red::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.15),transparent);opacity:0;transition:opacity .3s}
 .pr-cta--red:hover{box-shadow:0 8px 40px rgba(227,5,23,.4);transform:translateY(-2px)}
 .pr-cta--red:hover::before{opacity:1}
-.pr-cta--ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.12)}
+.pr-cta--ghost{background:rgba(255,255,255,.03);color:#fff;border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(8px)}
 .pr-cta--ghost:hover{border-color:var(--red);color:var(--red)}
 
-/* ═══ DIVIDER ═══ */
+/* DIVIDER */
 .zdc-div{position:relative;padding:80px 0 60px;text-align:center}
 .zdc-div::before{content:'PREGUNTAS FRECUENTES';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(2rem,8vw,6rem);font-weight:900;text-transform:uppercase;color:rgba(255,255,255,.015);letter-spacing:.15em;white-space:nowrap;pointer-events:none}
 .zdc-div-line{width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(227,5,23,.3),transparent);position:relative}
 .zdc-div-line::before{content:'';position:absolute;top:50%;left:50%;width:12px;height:12px;background:var(--dark);border:2px solid var(--red);transform:translate(-50%,-50%) rotate(45deg)}
 
-/* ═══ FAQS ═══ */
-.zdc-fq-head{text-align:center;margin-bottom:40px}
-.zdc-fq-head h2{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;text-transform:uppercase;letter-spacing:2px;margin:0 0 6px}
-.zdc-fq-head p{color:#556;font-size:.95rem;margin:0}
-.zdc-fq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:900px;margin:0 auto}
-.zdc-fq{background:var(--glass);border:1px solid rgba(255,255,255,.05);border-radius:14px;overflow:hidden;transition:all .35s;cursor:pointer}
-.zdc-fq:hover{border-color:rgba(255,255,255,.1)}
-.zdc-fq.open{border-color:rgba(227,5,23,.3)}
+/* FAQS */
+.zdc-fq-head{text-align:center;margin-bottom:44px}
+.zdc-fq-head h2{font-size:clamp(2rem,4.5vw,2.8rem);font-weight:900;text-transform:uppercase;letter-spacing:2px;margin:0 0 8px}
+.zdc-fq-head p{color:#778;font-size:1.15rem;margin:0}
+.zdc-fq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:900px;margin:0 auto}
+.zdc-fq{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-radius:16px;overflow:hidden;transition:all .35s;cursor:pointer;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.zdc-fq:hover{border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.04)}
+.zdc-fq.open{border-color:rgba(227,5,23,.3);background:rgba(227,5,23,.03)}
 .zdc-fq.open .zdc-fq-bar{width:3px}
-.zdc-fq-q{display:flex;align-items:flex-start;gap:12px;padding:20px 20px 20px 0;position:relative}
+.zdc-fq-q{display:flex;align-items:flex-start;gap:12px;padding:22px 22px 22px 0;position:relative}
 .zdc-fq-bar{position:absolute;left:0;top:0;width:0;height:100%;background:var(--red);transition:width .35s cubic-bezier(.22,1,.36,1);border-radius:0 2px 2px 0}
-.zdc-fq-num{font-size:.72rem;font-weight:800;color:var(--red);min-width:40px;text-align:center;padding-top:3px;letter-spacing:1px;margin-left:16px}
-.zdc-fq-q h3{font-size:.88rem;font-weight:700;color:#dde;margin:0;flex:1;line-height:1.4}
-.zdc-fq-plus{width:24px;height:24px;min-width:24px;border-radius:6px;background:rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center;transition:all .35s;margin-right:4px;margin-top:1px}
+.zdc-fq-num{font-size:.85rem;font-weight:800;color:var(--red);min-width:44px;text-align:center;padding-top:3px;letter-spacing:1px;margin-left:18px}
+.zdc-fq-q h3{font-size:1.05rem;font-weight:700;color:#dde;margin:0;flex:1;line-height:1.5}
+.zdc-fq-plus{width:28px;height:28px;min-width:28px;border-radius:8px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;transition:all .35s;margin-right:4px;margin-top:1px;backdrop-filter:blur(4px)}
 .zdc-fq.open .zdc-fq-plus{background:var(--red);transform:rotate(45deg)}
-.zdc-fq-plus svg{width:12px;height:12px;stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
+.zdc-fq-plus svg{width:14px;height:14px;stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
 .zdc-fq-a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.22,1,.36,1)}
-.zdc-fq.open .zdc-fq-a{max-height:250px}
-.zdc-fq-a-inner{padding:0 20px 20px 68px;font-size:.88rem;color:#778;line-height:1.7}
+.zdc-fq.open .zdc-fq-a{max-height:300px}
+.zdc-fq-a-inner{padding:0 22px 22px 74px;font-size:1.05rem;color:#889;line-height:1.8}
 .zdc-fq-a-inner p{margin:0}
 
 @media(max-width:768px){
-.zdc-pr-cards{grid-template-columns:1fr;gap:16px}
-.zdc-pr-card{padding:32px 24px}
+.zdc-pf{padding:60px 0}
+.zdc-pr-cards{max-width:100%}
+.zdc-pr-card{padding:36px 28px}
 .zdc-fq-grid{grid-template-columns:1fr}
-.zdc-fq-a-inner{padding-left:52px}
+.zdc-fq-a-inner{padding-left:56px}
+.zdc-fq-q h3{font-size:1rem}
+.zdc-div{padding:50px 0 40px}
 }
 </style>
 
@@ -87,19 +84,22 @@
   <div class="zdc-pf-inner">
     <!-- PRICING -->
     <div class="zdc-pr-head">
-      <h2>{{ section.settings.pricing_heading | default: 'ELIGE TU PLAN' }}</h2>
-      <p>{{ section.settings.pricing_subheading | default: 'Entrena con peleadores profesionales' }}</p>
+      <h2>{{ section.settings.pricing_heading | default: 'TU PLAN DE ENTRENAMIENTO' }}</h2>
+      <p>{{ section.settings.pricing_subheading | default: '60 días para transformar tu cuerpo' }}</p>
       <div class="pr-bar"></div>
     </div>
     <div class="zdc-pr-cards">
-      <!-- PLAN BASE -->
+      <!-- PLAN BASE (hidden if no price) -->
       {% if section.settings.plan2_price != blank %}
       <div class="zdc-pr-card zdc-pr-card--base">
         <span class="pr-badge pr-badge--basic">{{ section.settings.plan2_badge | default: 'Básico' }}</span>
         <div class="pr-plan-name">{{ section.settings.plan2_name | default: 'Plan Base' }}</div>
-        <div class="pr-price">${{ section.settings.plan2_price | default: '120.000' }}<span>/mes</span></div>
+        <div class="pr-price">${{ section.settings.plan2_price | default: '120.000' }}<span>/60 días</span></div>
+        {% if section.settings.plan2_old_price != blank %}
+        <span class="pr-price-old">${{ section.settings.plan2_old_price }}</span>
+        {% endif %}
         {% if section.settings.plan2_note != blank %}
-        <span class="pr-price-note">{{ section.settings.plan2_note }}</span>
+        <span class="pr-price-note" style="color:#667">{{ section.settings.plan2_note }}</span>
         {% endif %}
         <ul class="pr-feats">
           {% assign f2 = section.settings.plan2_features | split: '|' %}
@@ -115,11 +115,14 @@
         <a href="{{ section.settings.plan2_link }}" class="pr-cta pr-cta--ghost">{{ section.settings.plan2_cta | default: 'EMPEZAR AHORA' }}</a>
       </div>
       {% endif %}
-      <!-- PLAN COMPLETO -->
+      <!-- PLAN PRINCIPAL -->
       <div class="zdc-pr-card zdc-pr-card--pro">
-        <span class="pr-badge pr-badge--hot">{{ section.settings.plan1_badge | default: 'Más Popular' }}</span>
-        <div class="pr-plan-name">{{ section.settings.plan1_name | default: 'Plan Completo' }}</div>
-        <div class="pr-price">${{ section.settings.plan1_price | default: '150.000' }}<span>/mes</span></div>
+        <span class="pr-badge pr-badge--hot">{{ section.settings.plan1_badge | default: 'Precio de Lanzamiento' }}</span>
+        <div class="pr-plan-name">{{ section.settings.plan1_name | default: 'Plan ZDC — 60 Días' }}</div>
+        <div class="pr-price">${{ section.settings.plan1_price | default: '120.000' }}<span>/60 días</span></div>
+        {% if section.settings.plan1_old_price != blank %}
+        <span class="pr-price-old">${{ section.settings.plan1_old_price }} COP</span>
+        {% endif %}
         {% if section.settings.plan1_note != blank %}
         <span class="pr-price-note">{{ section.settings.plan1_note }}</span>
         {% endif %}
@@ -129,7 +132,7 @@
           <li><svg class="ck" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>{{ f | strip }}</li>
           {% endfor %}
         </ul>
-        <a href="{{ section.settings.plan1_link }}" class="pr-cta pr-cta--red">{{ section.settings.plan1_cta | default: 'QUIERO ESTE PLAN' }}</a>
+        <a href="{{ section.settings.plan1_link }}" class="pr-cta pr-cta--red">{{ section.settings.plan1_cta | default: 'QUIERO MI PLAN' }}</a>
       </div>
     </div>
 
@@ -165,25 +168,25 @@
   "tag": "section",
   "settings": [
     { "type": "header", "content": "Precios" },
-    { "type": "text", "id": "pricing_heading", "label": "Título precios", "default": "ELIGE TU PLAN" },
-    { "type": "text", "id": "pricing_subheading", "label": "Subtítulo", "default": "Entrena con peleadores profesionales" },
+    { "type": "text", "id": "pricing_heading", "label": "Título precios", "default": "TU PLAN DE ENTRENAMIENTO" },
+    { "type": "text", "id": "pricing_subheading", "label": "Subtítulo", "default": "60 días para transformar tu cuerpo" },
     { "type": "header", "content": "Plan 1 (Destacado)" },
-    { "type": "text", "id": "plan1_badge", "label": "Badge", "default": "Más Popular" },
-    { "type": "text", "id": "plan1_name", "label": "Nombre del plan", "default": "Plan Completo" },
-    { "type": "text", "id": "plan1_price", "label": "Precio", "default": "150.000" },
-    { "type": "text", "id": "plan1_old_price", "label": "Precio anterior (tachado)" },
-    { "type": "text", "id": "plan1_note", "label": "Nota del precio", "default": "Todo incluido" },
-    { "type": "textarea", "id": "plan1_features", "label": "Características (separadas por |)", "default": "Plan de entrenamiento personalizado|Guía de alimentación completa|8 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|Seguimiento personalizado" },
-    { "type": "text", "id": "plan1_cta", "label": "Texto del botón", "default": "QUIERO ESTE PLAN" },
+    { "type": "text", "id": "plan1_badge", "label": "Badge", "default": "Precio de Lanzamiento" },
+    { "type": "text", "id": "plan1_name", "label": "Nombre del plan", "default": "Plan ZDC — 60 Días" },
+    { "type": "text", "id": "plan1_price", "label": "Precio", "default": "120.000" },
+    { "type": "text", "id": "plan1_old_price", "label": "Precio anterior (tachado)", "default": "150.000" },
+    { "type": "text", "id": "plan1_note", "label": "Nota del precio", "default": "Ahorra $30.000 — Precio normal $150.000" },
+    { "type": "textarea", "id": "plan1_features", "label": "Características (separadas por |)", "default": "Plan de entrenamiento personalizado (60 días)|Guía de alimentación completa|Clases presenciales|Grupo de Telegram con coaches|Acceso completo a la app|Seguimiento personalizado" },
+    { "type": "text", "id": "plan1_cta", "label": "Texto del botón", "default": "QUIERO MI PLAN" },
     { "type": "url", "id": "plan1_link", "label": "Link del botón" },
-    { "type": "header", "content": "Plan 2" },
-    { "type": "text", "id": "plan2_badge", "label": "Badge", "default": "Básico" },
-    { "type": "text", "id": "plan2_name", "label": "Nombre del plan", "default": "Plan Base" },
-    { "type": "text", "id": "plan2_price", "label": "Precio", "default": "120.000" },
+    { "type": "header", "content": "Plan 2 (Opcional - dejar precio vacío para ocultar)" },
+    { "type": "text", "id": "plan2_badge", "label": "Badge", "default": "" },
+    { "type": "text", "id": "plan2_name", "label": "Nombre del plan", "default": "" },
+    { "type": "text", "id": "plan2_price", "label": "Precio (vacío = oculto)", "default": "" },
     { "type": "text", "id": "plan2_old_price", "label": "Precio anterior" },
-    { "type": "text", "id": "plan2_note", "label": "Nota del precio", "default": "Ideal para empezar" },
-    { "type": "textarea", "id": "plan2_features", "label": "Características (| para separar, ~ para deshabilitada)", "default": "Plan de entrenamiento personalizado|Guía de alimentación completa|4 clases presenciales al mes|Grupo de Telegram con coaches|Acceso completo a la app|~Seguimiento personalizado" },
-    { "type": "text", "id": "plan2_cta", "label": "Texto del botón", "default": "EMPEZAR AHORA" },
+    { "type": "text", "id": "plan2_note", "label": "Nota del precio" },
+    { "type": "textarea", "id": "plan2_features", "label": "Características", "default": "" },
+    { "type": "text", "id": "plan2_cta", "label": "Texto del botón", "default": "" },
     { "type": "url", "id": "plan2_link", "label": "Link del botón" },
     { "type": "header", "content": "FAQs" },
     { "type": "text", "id": "faqs_heading", "label": "Título FAQs", "default": "¿TIENES DUDAS?" },
@@ -202,7 +205,7 @@
   "presets": [{
     "name": "Precios + FAQs",
     "blocks": [
-      { "type": "faq", "settings": { "question": "¿Qué incluye el Plan ZDC?", "answer": "<p>Incluye rutina personalizada, guía alimentaria, clases presenciales, grupo de Telegram y acceso a la app.</p>" } }
+      { "type": "faq", "settings": { "question": "¿Qué incluye el Plan ZDC?", "answer": "<p>Incluye rutina personalizada de 60 días, guía alimentaria, clases presenciales, grupo de Telegram y acceso a la app.</p>" } }
     ]
   }]
 }
