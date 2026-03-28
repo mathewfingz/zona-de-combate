@@ -44,6 +44,7 @@
       "block_order": [
         "group_announcement_bar_PeTpTw"
       ],
+      "disabled": true,
       "name": "t:names.announcement_bar",
       "settings": {
         "color_scheme": "scheme-7",
@@ -54,138 +55,10 @@
     },
     "header_default": {
       "type": "header",
-      "blocks": {
-        "mega_menu_1_mDeNwB": {
-          "type": "mega_menu_1",
-          "settings": {
-            "grid": "4",
-            "menu_item": "Theme Demo",
-            "width": "page-width",
-            "show_promotion_banner": true,
-            "promotion_banner_layout": "right",
-            "image_border_thickness": 1,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "link_url_2": "",
-            "link_url_3": ""
-          }
-        },
-        "mega_menu_2_AGJyYm": {
-          "type": "mega_menu_2",
-          "settings": {
-            "menu_item": "Shop",
-            "grid": "4",
-            "width": "page-width",
-            "megamenu_submenu": "",
-            "show_promotion_banner": false,
-            "image_border_thickness": 0,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "link_url_2": "",
-            "show_brand": false,
-            "brand_title": "All Brands A-Z",
-            "brand_text": "See All Brands",
-            "brand_url": "",
-            "divider": false,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-1"
-          }
-        },
-        "mega_menu_3_b9XnmH": {
-          "type": "mega_menu_3",
-          "settings": {
-            "menu_item": "Product",
-            "grid": "5",
-            "width": "page-width",
-            "megamenu_submenu": "",
-            "product_collection": "",
-            "product_limit": 4,
-            "product_columns": 4,
-            "product_direction": "column",
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment_flex_direction_column": "justify-start",
-            "show_promotion_banner": true,
-            "banner_row": "bottom",
-            "image_border_thickness": 1,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "divider": false,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-2"
-          }
-        },
-        "mega_menu_1_JVCYtQ": {
-          "type": "mega_menu_1",
-          "settings": {
-            "grid": "3",
-            "menu_item": "New In",
-            "width": "page-width",
-            "show_promotion_banner": true,
-            "promotion_banner_layout": "right",
-            "image_border_thickness": 0,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "link_url_2": "",
-            "link_url_3": ""
-          }
-        },
-        "mega_menu_3_pb6MdF": {
-          "type": "mega_menu_3",
-          "settings": {
-            "menu_item": "COLLECTIONS",
-            "grid": "5",
-            "width": "page-width",
-            "megamenu_submenu": "",
-            "product_collection": "classic-new-arrival",
-            "product_limit": 4,
-            "product_columns": 4,
-            "product_direction": "column",
-            "horizontal_alignment": "items-start",
-            "vertical_alignment_flex_direction_column": "justify-start",
-            "show_promotion_banner": true,
-            "banner_row": "bottom",
-            "image_border_thickness": 0,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "divider": true,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-2"
-          }
-        },
-        "mega_menu_2_A6GMW4": {
-          "type": "mega_menu_2",
-          "settings": {
-            "menu_item": "Trend",
-            "grid": "4",
-            "width": "page-width",
-            "megamenu_submenu": "",
-            "show_promotion_banner": true,
-            "image_border_thickness": 0,
-            "image_corner_radius": 0,
-            "link_url_1": "",
-            "link_url_2": "",
-            "show_brand": true,
-            "brand_title": "BRANDS BY ALPHABET",
-            "brand_text": "See All Brands",
-            "brand_url": "",
-            "divider": false,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-2"
-          }
-        }
-      },
-      "block_order": [
-        "mega_menu_1_mDeNwB",
-        "mega_menu_2_AGJyYm",
-        "mega_menu_3_b9XnmH",
-        "mega_menu_1_JVCYtQ",
-        "mega_menu_3_pb6MdF",
-        "mega_menu_2_A6GMW4"
-      ],
       "name": "Header",
       "settings": {
-        "gap": 12,
-        "align_items": "start",
+        "gap": 14,
+        "align_items": "center",
         "logo_width": 120,
         "logo_width_mobile": 110,
         "logo_spacing_left": 0,
@@ -245,10 +118,10 @@
         "color_scheme_bottom": "",
         "color_scheme_transparent": "scheme-4",
         "menu_mobile_color_scheme": "scheme-1",
-        "highlighted_item_1": "Buy Ella, Trend",
+        "highlighted_item_1": "",
         "highlighted_item_2": "Open A Store for FREE, Sale, Landing Pages, Document, Sale",
         "highlighted_item_3": "Clean Cuts, Modern Fits",
-        "highlighted_item_color": "#d12442",
+        "highlighted_item_color": "#ffffff",
         "new_label_1": "Shop, Theme Demo",
         "new_label_2": "Blog Classic, Blog Simple, Theme Highlights, HomePages,",
         "new_label_3": "Jewelry, Classic, Shoes, Theme Block,",
@@ -264,14 +137,14 @@
         "hot_label_3": "Hot Stock, Wishllist",
         "hot_label_color": "#ffffff",
         "hot_label_bg": "#ffbb49",
-        "enable_transparent_header_home": true,
+        "enable_transparent_header_home": false,
         "home_color_scheme": "inverse",
         "enable_transparent_header_product": false,
         "product_color_scheme": "default",
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default",
-        "padding-block-start-top": 20,
-        "padding-block-end-top": 20,
+        "padding-block-start-top": 15,
+        "padding-block-end-top": 1,
         "padding-block-start-bottom": 0,
         "padding-block-end-bottom": 0
       }
